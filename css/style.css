@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900");
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.line {
+  width: 200px;
+  height: 2px;
+  background-color: #ed145b;
+  margin: 40px auto;
+}
+
+p {
+  font-size: 15px;
+  color: #5a5a5a;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 38px;
+  font-style: italic;
+  color: #5a5a5a;
+  line-height: 52px;
+}
+
+/* navbar */
+.navbar {
+  margin-bottom: 0;
+  min-height: 80px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 44px 14px 0 2px;
+  padding: 0;
+  transition: color .2s linear;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #ed145b;
+}
+
+.navbar-brand {
+  margin-top: 44px;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* hero */
+header {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+header h1 {
+  font-size: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+header strong {
+  font-weight: 900;
+}
+
+header p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.hero {
+  height: calc(100vh - 80px);
+  display: table;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.show-more {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ed145b;
+  border: none;
+  margin-top: 66px;
+  transition: all 0.2s linear;
+}
+
+.show-more:hover {
+  color: #ed145b;
+  border: 2px solid #ed145b;
+  background-color: transparent;
+}
+
+/*about*/
+#about {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.skew-ornament {
+  width: 100%;
+  height: 78px;
+  background-color: #ed145b;
+  transform: skewY(-0.7deg);
+  position: absolute;
+  top: -42px;
+}
+
+.about-box {
+  margin-top: 150px;
+}
+
+.about-content {
+  font-weight: 300;
+  height: 100%;
+}
+
+.about-content h2 {
+  margin: 0;
+}
+
+.about-content .line {
+  margin: 35px 0 45px 2px;
+}
+
+.about-content p {
+  letter-spacing: 0.38px;
+  margin-bottom: 53px;
+}
+
+.about-content a {
+  color: #ed145b;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.about-content span {
+  border: 1px solid #ed145b;
+  width: 27px;
+  height: 27px;
+  border-radius: 20px;
+  padding: 6px;
+  margin-left: 12px;
+}
+
+.img-container img {
+  margin-top: 106px;
+}
+
+/*services*/
+#services {
+  width: 100%;
+}
+
+#services .services-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#services h2 {
+  margin-top: 150px;
+}
+
+#services p {
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+#services .icon {
+  width: 130px;
+  margin: 94px auto 0 auto;
+}
+
+#services figure {
+  width: 130px;
+  height: 130px;
+  border: 1px solid #b3b3b3;
+  border-radius: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  transition: transform 0.2s linear;
+}
+
+#services figure:hover {
+  transform: scale(1.1);
+  border: 1px solid #ed145b;
+}
+
+#services h3 {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #ed145b;
+  margin-top: 34px;
+}
+
+/* quotation */
+#quotation {
+  width: 100%;
+  min-height: 500px;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#quotation p {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.quotation-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.quotation-container .row {
+  display: flex;
+  align-items: center;
+}
+
+.quote-start {
+  margin: 100px 0 50px;
+}
+
+.quote-end {
+  margin: 50px 0 100px;
+}
+
+/* Prizes section */
+#prices {
+  width: 100%;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-bottom: 140px;
+}
+
+#prices h2 {
+  margin-top: 120px;
+  text-transform: capitalize;
+}
+
+#prices .container > p {
+  max-width: 686px;
+  margin: 0 auto 92px auto;
+}
+
+#prices button {
+  width: 200px;
+  height: 50px;
+  background-color: #ed145b;
+  border-radius: 50px;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: all 0.2s linear;
+}
+
+#prices button:hover {
+  background-color: transparent;
+  border: 2px solid #ed145b;
+  color: #ed145b;
+}
+
+.price-container {
+  height: 465px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  transition: transform 0.2s linear;
+}
+
+.price-container:hover .price-header {
+  background-color: #ed145b;
+}
+
+.price-container:hover {
+  transform: scale(1.05);
+}
+
+.price-header {
+  width: 100%;
+  height: 150px;
+  background-color: #5a5a5a;
+  padding-top: 26px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.price-header h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.price-header span {
+  font-size: 50px;
+  margin: 0;
+}
+
+.price-header h5 {
+  font-size: 15px;
+  margin: 0 0 28px 0;
+}
+
+.type-button {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #5a5a5a;
+  margin: 0 auto;
+}
+
+/* Info section */
+.info-row {
+  padding: 70px 0 90px 0;
+}
+
+.info-card {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.info-card h3 {
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  color: #ec135b;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.info-card p {
+  font-weight: 300;
+  color: #838383;
+}
+
+/* Join section */
+#join {
+  background-color: #ed145b;
+}
+
+.join-container {
+  position: relative;
+}
+
+.join-container h3 {
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 38px;
+  margin: 90px 220px 90px 0;
+}
+
+.join-container strong {
+  font-weight: 700;
+}
+
+.join-container button {
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  color: #ed145b;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  transition: all 0.2s linear;
+}
+
+.join-container button:hover {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+/* News section */
+#news {
+  padding-bottom: 65px;
+}
+
+#news a {
+  text-transform: uppercase;
+  color: #ed145b;
+  font-weight: 400;
+  font-size: 15px;
+  height: 40px;
+  margin: 0 auto;
+  display: inline-block;
+  background-image: url(../images/show-more.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  text-decoration: none;
+}
+
+.news-header {
+  text-align: center;
+}
+
+.news-header h2 {
+  margin-top: 150px;
+}
+
+.news-header p {
+  max-width: 680px;
+  margin: 0 auto 40px auto;
+}
+
+.news-column {
+  background-color: #f4f4f4;
+  padding-bottom: 25px;
+  margin-top: 60px;
+}
+
+.news-column h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  color: #5a5a5a;
+  margin: 30px 20px;
+}
+
+.news-column p {
+  font-size: 15px;
+  color: #5a5a5a;
+  font-weight: 300;
+  margin: 0 20px;
+  line-height: 30px;
+}
+
+.news-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.news-container:hover .photo-zoom {
+  top: -3%;
+}
+
+.photo-news {
+  width: 100%;
+}
+
+.photo-zoom {
+  width: 100%;
+  height: 106%;
+  background-color: rgba(237, 20, 91, 0.9);
+  position: absolute;
+  top: 97%;
+  transform: skewY(1.5deg);
+  transition: top 0.3s linear;
+}
+
+.glyphicon-box {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.glyphicon-content {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.glyphicon-search {
+  color: #ffffff;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.news-link {
+  text-align: center;
+  margin-top: 115px;
+  height: 45px;
+}
+
+/* Additional info section */
+#additional-info {
+  width: 100%;
+  min-height: 650px;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#additional-info h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+#additional-info p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+#additional-info button {
+  width: 200px;
+  height: 50px;
+  background-color: #ed145b;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 55px;
+  transition: all 0.2s linear;
+}
+
+#additional-info button:hover {
+  color: #ed145b;
+  border: 2px solid #ed145b;
+  background-color: transparent;
+}
+
+.additional-info-container {
+  width: 100%;
+  height: 100%;
+  min-height: 650px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Download-now section */
+#download-now {
+  background-color: #f4f4f4;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#download-now .line {
+  margin-left: 0;
+}
+
+#download-now h2 {
+  margin-top: 75px;
+}
+
+#download-now p {
+  font-weight: 300;
+}
+
+#download-now button {
+  width: 200px;
+  height: 50px;
+  background-color: #ed145b;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  transition: all 0.2s linear;
+}
+
+#download-now button:hover {
+  color: #ed145b;
+  border: 2px solid #ed145b;
+  background-color: transparent;
+}
+
+.download-now-column {
+  border: 1px solid red;
+  position: relative;
+}
+
+.safari-browser-container {
+  position: absolute;
+  left: -230px;
+}
+
+/* Footer */
+footer {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: #2b2b2b;
+}
+
+.footer-first {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer-second {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+}
+
+.logo-symu {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-symu img {
+  height: 100%;
+  margin: 3px 0 0 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
